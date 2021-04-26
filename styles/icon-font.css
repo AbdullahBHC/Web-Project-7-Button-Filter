@@ -1,0 +1,31 @@
+@font-face {
+  font-family: 'icon-font';
+  src: url('../font/icon-font.eot?39085568');
+  src: url('../font/icon-font.eot?39085568#iefix') format('embedded-opentype'),
+    url('../font/icon-font.woff2?39085568') format('woff2'),
+    url('../font/icon-font.woff?39085568') format('woff'),
+    url('../font/icon-font.ttf?39085568') format('truetype'),
+    url('../font/icon-font.svg?39085568#icon-font') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+
+[class^="icon-"]:before,
+[class*=" icon-"]:before {
+  font-family: "icon-font";
+  font-style: normal;
+  font-weight: normal;
+  display: inline-block;
+  text-decoration: inherit;
+  text-align: center;
+  font-variant: normal;
+  text-transform: none;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.icon-search:before {
+  content: '\e800';
+}
+
+/* '' */

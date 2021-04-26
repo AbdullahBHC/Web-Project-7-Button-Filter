@@ -1,0 +1,287 @@
+* {
+  margin: 0;
+  padding: 0;
+  border: none;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  font-family: 'Kaushan Script';
+}
+
+body {
+  background: #EEEEEE;
+  width: 100%;
+  height: 100vh;
+}
+
+body .header {
+  width: 100%;
+  height: 30%;
+}
+
+body .header .title {
+  width: 100%;
+  height: 40%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  padding-top: 1.5vh;
+}
+
+body .header .title p {
+  cursor: pointer;
+  font-size: 40px;
+}
+
+body .header .title p span {
+  color: #F1729A;
+  font-size: 60px;
+}
+
+body .header .button {
+  width: 100%;
+  height: 30%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+body .header .button ul {
+  list-style-type: none;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+}
+
+body .header .button ul li {
+  margin: 0vh 3vh;
+}
+
+body .header .button ul li button {
+  font-size: 18px;
+  font-weight: bold;
+  padding: 1vh 2vh;
+  border: 3px solid black;
+  border-radius: 1vh;
+  cursor: pointer;
+  background: transparent;
+  -webkit-transition: all 500ms ease-in-out;
+  transition: all 500ms ease-in-out;
+}
+
+body .header .button ul li button:hover {
+  background: black;
+  color: white;
+}
+
+body .header .search {
+  width: 100%;
+  height: 30%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+body .header .search p {
+  background: #F1729A;
+  padding: 1vh 1.5vh;
+  height: 60%;
+  font-size: 20px;
+  cursor: pointer;
+  font-size: 18px;
+  font-weight: 600;
+  -webkit-transition: all 500ms ease-in-out;
+  transition: all 500ms ease-in-out;
+}
+
+body .header .search p:hover {
+  -webkit-transform: rotate(360deg);
+          transform: rotate(360deg);
+}
+
+body .header .search input {
+  padding: 1vh 1.5vh;
+  width: 30%;
+  height: 60%;
+}
+
+body .nav {
+  width: 100%;
+  height: 70%;
+}
+
+body .nav .area1 {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin-left: auto;
+  margin-right: auto;
+  width: 60%;
+  height: 50%;
+}
+
+body .nav .area1 .section1,
+body .nav .area1 .section2,
+body .nav .area1 .section3 {
+  cursor: pointer;
+  float: left;
+  text-align: center;
+  width: 33.3%;
+  height: 100%;
+}
+
+body .nav .area1 .section1 .image,
+body .nav .area1 .section2 .image,
+body .nav .area1 .section3 .image {
+  width: 100%;
+  height: 80%;
+}
+
+body .nav .area1 .section1 .image img,
+body .nav .area1 .section2 .image img,
+body .nav .area1 .section3 .image img {
+  width: 95%;
+  height: 100%;
+}
+
+body .nav .area1 .section1 .text,
+body .nav .area1 .section2 .text,
+body .nav .area1 .section3 .text {
+  width: 100%;
+  height: 20%;
+}
+
+body .nav .area1 .section1 .text p,
+body .nav .area1 .section2 .text p,
+body .nav .area1 .section3 .text p {
+  font-size: 18px;
+  font-weight: 600;
+  text-align: left;
+  padding-top: 1vh;
+  padding-left: 1vh;
+  display: inline-block;
+  height: 80%;
+  width: 95%;
+  background: white;
+  position: relative;
+}
+
+body .nav .area1 .section1 .text p span,
+body .nav .area1 .section2 .text p span,
+body .nav .area1 .section3 .text p span {
+  position: absolute;
+  top: 1vh;
+  right: 1vh;
+  text-align: right;
+}
+
+body .nav .area2 {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin-left: auto;
+  margin-right: auto;
+  width: 60%;
+  height: 50%;
+}
+
+body .nav .area2 .section4,
+body .nav .area2 .section5,
+body .nav .area2 .section6 {
+  cursor: pointer;
+  float: left;
+  text-align: center;
+  width: 33.3%;
+  height: 100%;
+}
+
+body .nav .area2 .section4 .image,
+body .nav .area2 .section5 .image,
+body .nav .area2 .section6 .image {
+  width: 100%;
+  height: 80%;
+}
+
+body .nav .area2 .section4 .image img,
+body .nav .area2 .section5 .image img,
+body .nav .area2 .section6 .image img {
+  width: 95%;
+  height: 100%;
+}
+
+body .nav .area2 .section4 .text,
+body .nav .area2 .section5 .text,
+body .nav .area2 .section6 .text {
+  width: 100%;
+  height: 20%;
+}
+
+body .nav .area2 .section4 .text p,
+body .nav .area2 .section5 .text p,
+body .nav .area2 .section6 .text p {
+  font-size: 18px;
+  font-weight: 600;
+  text-align: left;
+  padding-top: 1vh;
+  padding-left: 1vh;
+  display: inline-block;
+  height: 80%;
+  width: 95%;
+  background: white;
+  position: relative;
+}
+
+body .nav .area2 .section4 .text p span,
+body .nav .area2 .section5 .text p span,
+body .nav .area2 .section6 .text p span {
+  position: absolute;
+  top: 1vh;
+  right: 1vh;
+  text-align: right;
+}
+/*# sourceMappingURL=style.css.map */
